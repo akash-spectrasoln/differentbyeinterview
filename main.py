@@ -1,6 +1,4 @@
 
-
-
 from fastapi import FastAPI
 from pydantic import BaseModel
 from .models import get_db

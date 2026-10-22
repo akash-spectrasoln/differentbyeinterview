@@ -2,10 +2,10 @@ from sqlalchemy import Column, Integer, String, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy import create_engine
 
-DB_HOST = "136.115.40.171"
+DB_HOST = "136.115.40.172"
 DB_USER = "postgres"
 DB_PASSWORD = "DSQa_2026"
-DB_NAME = "datasyncher_batch"
+DB_NAME = "ddemo_db"
 database_url = f"postgresql://{DB_USER}:{DB_PASSWORD}@{DB_HOST}/{DB_NAME}"
 engine = create_engine(database_url)
 
